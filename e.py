@@ -22,24 +22,12 @@ Instructions
 '''
 num_list = [33,42,5,66,77,22,16,79,36,62,78,43,88,39,53,67,89,11]
 
-# Step 5: Create count variable outside the loop
 count = 0
 
-# Step 4: Use enumerate in the for loop to get index and value
-for idx, num in enumerate(num_list):
-    # Step 6: Increment count inside the loop
-    count = +1
-    
-    # Step 8: Check if number is 36, print and break
+for x,num in enumerate(num_list):
+    count += 1
     if num == 36:
-        print('Number found at position:', idx)
+        print('Number found at ', x)
         break
-    else:
-        # Step 3: Print "Over 45" or "Under 45" based on condition
-        if num > 45:
-            print('Over 45')
-        else:
-            print('Under 45')
 
-# Step 7: Print count outside the loop
-print('Count:', count)
+print(count)
