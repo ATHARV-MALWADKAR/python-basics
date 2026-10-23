@@ -9,7 +9,7 @@ print(a / b)
 print(a // b)
 
 # Exponent
-print(2**6)  # Base = 2, exp = 5 -> 2x2x2x2x2
+print(2**6)  # Base = 2, exp = 6 -> 2x2x2x2x2x2
 print(100**0.5)  # Base = 100, exp = 0.5
 
 # modulus (remainder)
