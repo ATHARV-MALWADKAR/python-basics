@@ -15,6 +15,5 @@ while True:
         continue
     
     total += num
-
 print(total)
     
